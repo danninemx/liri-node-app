@@ -2,7 +2,7 @@
 
 ### Overview
 
-"LIRI", or Language Interpretation and Recognition Interface, is a Node.js command line application that takes user's input and provides data.
+"LIRI", or Language Interpretation and Recognition Interface, is a Node.js command line application that takes user's input and provides requested data.
 
 Taking after her iOS relative called "SIRI", LIRI can accept commands with slight, syntactic similarity to human language.
 
@@ -10,7 +10,7 @@ Taking after her iOS relative called "SIRI", LIRI can accept commands with sligh
 
 1. Run the app in Git Bash or Terminal by writing your command in the following syntax:
 
-   node liri _COMMAND_ _SEARCH TERM_
+   node liri <_COMMAND_> <_SEARCH TERM_>
 
 2. Commands avaiable are:
 
@@ -36,11 +36,11 @@ Taking after her iOS relative called "SIRI", LIRI can accept commands with sligh
 
    - This will show the following information about the song in your terminal/bash window
 
-   - Artist(s)
-   - The song's name
-   - A preview link of the song from Spotify
-   - The album that the song is from
-   - If no song is provided then your program will default to "The Sign" by Ace of Base.
+     - Artist(s)
+     - The song's name
+     - A preview link of the song from Spotify
+     - The album that the song is from
+     - If no song is provided then your program will default to "The Sign" by Ace of Base.
 
    3. `node liri.js movie-this '<movie name here>'`
 
