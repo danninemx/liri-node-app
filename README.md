@@ -32,38 +32,48 @@ Taking after her iOS relative called "SIRI", LIRI can accept commands with sligh
      - Venue location
      - Date of the Event
 
-   2. `node liri.js spotify-this-song '<song name here>'`
+![concert-this-example](./image/concert-this.png)
 
-   - This will show the following information about the song in your terminal/bash window
+2.  `node liri.js spotify-this-song '<song name here>'`
 
-     - Artist(s)
-     - The song's name
-     - A preview link of the song from Spotify
-     - The album that the song is from
-     - If no song is provided then your program will default to "The Sign" by Ace of Base.
+- This will show the following information about the song in your terminal/bash window
 
-   3. `node liri.js movie-this '<movie name here>'`
+  - Artist(s)
+  - The song's name
+  - A preview link of the song from Spotify
+  - The album that the song is from
+    ![spotify-this-song-example](./image/spotify-this-song.png)
 
-   - This will output the following information to your terminal/bash window:
+  - If no song is provided then your program will default to "The Sign".
+    ![spotify-this-song-default](./image/spotify-this-song-default.png)
 
-   ```
-   * Title of the movie.
-   * Year the movie came out.
-   * IMDB Rating of the movie.
-   * Rotten Tomatoes Rating of the movie.
-   * Country where the movie was produced.
-   * Language of the movie.
-   * Plot of the movie.
-   * Actors in the movie.
-   ```
+3.  `node liri.js movie-this '<movie name here>'`
 
-   - If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+- This will output the following information to your terminal/bash window:
 
-   4. `node liri.js do-what-it-says`
+```
+* Title of the movie.
+* Year the movie came out.
+* IMDB Rating of the movie.
+* Rotten Tomatoes Rating of the movie.
+* Country where the movie was produced.
+* Language of the movie.
+* Plot of the movie.
+* Actors in the movie.
+```
 
-   - Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+![movie-this-example](./image/movie-this.png)
 
-   - It will `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+- If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+  ![movie-this-default-example](./image/movie-this-default.png)
+
+4.  `node liri.js do-what-it-says`
+
+- Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+
+- It will `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+
+![do-what-it-says-example](./image/do-what-it-says.png)
 
 ### Components
 
